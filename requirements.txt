@@ -1,7 +1,6 @@
 geopy
 openpyxl
 pandas
-random
 streamlit
 xlrd
 xlsxwriter
