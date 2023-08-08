@@ -235,6 +235,6 @@ if calendar is not None:
                         WD.qual_draw.to_excel(file_writer, sheet_name = 'WD_qual')
                         XD.qual_draw.to_excel(file_writer, sheet_name = 'XD_qual')
 
-                    file_writer.save()
+                    file_writer.close()
                     draw_file = output.getvalue()
                     st.download_button("Download current draw", data = draw_file, file_name = tournament + ".xlsx")
