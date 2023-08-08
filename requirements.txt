@@ -1,5 +1,4 @@
 geopy
-io
 math
 openpyxl
 pandas
