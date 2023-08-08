@@ -1,3 +1,0 @@
-xlrd
-openpyxl
-xlsxwriter
